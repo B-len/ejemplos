@@ -23,18 +23,29 @@
 // }
 
 //function->
-var resultado=101;
-if(10>resultado)
-{
-    console.log('El número es menor que 10');
+var resultado='hola';
+switch (resultado) {
+    case 'hola':
+        console.log(resultado);
+        break;
+    case 100:
+        console.log(typeof resultado);
+    default:
+        console('default');
 }
-else if(10<=resultado&&25>=resultado)
-{
-    console.log('El número es mayor que 10 y menor que 25');
-}
-else if(25<resultado&&100>=resultado){
-    console.log('El número es mayor que 25 y menor que 100');
-}
-else{
-    console.log('Es un else');
-}
+
+
+// if(10>resultado)
+// {
+//     console.log('El número es menor que 10');
+// }
+// else if(10<=resultado&&25>=resultado)
+// {
+//     console.log('El número es mayor que 10 y menor que 25');
+// }
+// else if(25<resultado&&100>=resultado){
+//     console.log('El número es mayor que 25 y menor que 100');
+// }
+// else{
+//     console.log('Es un else');
+// }
