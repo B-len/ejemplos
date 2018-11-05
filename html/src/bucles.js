@@ -73,36 +73,56 @@
 //       }
 // }
 
-var arr=[];
-var i=0;
 
-var cont=0;
-while(i<3){
-    arr[i]=[];
-    var j=0;
-    while(j<3)
-    {
-        arr[i][j]=j+1;
-        j++;
-    }
-    i++;
+/**Ejercicio clase**/
+// var arr=[];
+// var i=0;
+//
+// var cont=0;
+// while(i<3){
+//     arr[i]=[];
+//     var j=0;
+//     while(j<3)
+//     {
+//         arr[i][j]=j+1;
+//         j++;
+//     }
+//     i++;
+// }
+// console.log(arr);
+//
+// var e=0;
+// while(e<arr.length)
+// {
+//     console.log('--------------');
+//     var str="|";
+//     var f=0;
+//     while(f<arr[e].length){
+//         str+=' '+arr[e][f]+' |';
+//         f++;
+//     }
+//     console.log(str);
+//
+//     if(e===arr.length-1){
+//         console.log('--------------');
+//     }
+//     e++;
+// }
+
+/** For in**/
+var obj={
+    name:'ivan',
+    job:'programmer'
 }
-console.log(arr);
 
-var e=0;
-while(e<arr.length)
+for(var propiedad in obj)
 {
-    console.log('--------------');
-    var str="|";
-    var f=0;
-    while(f<arr[e].length){
-        str+=' '+arr[e][f]+' |';
-        f++;
-    }
-    console.log(str);
+ console.log(propiedad +':'+obj[propiedad]);
+ console.log(obj[propiedad]);
+}
 
-    if(e===arr.length-1){
-        console.log('--------------');
-    }
-    e++;
+/**For of**/
+var arr=[11,22,33];
+for (var valor of arr){
+    console.log(valor);
 }
