@@ -16,8 +16,8 @@
 // }
 //
 // console.log(suma(2,5,100));
-
-
+//
+//
 // function concat(separador) {
 //     var result=" ";
 //     for(var i=1;i<arguments.length;i++){
@@ -27,7 +27,7 @@
 // }
 // console.log(concat('| ',2,'7','5'));
 // alert('funciona');
-
+//
 //
 // var input=prompt("Introduzca una cadena");
 //
@@ -38,12 +38,12 @@
 //
 // var resultado=eval(input);
 // alert(resultado);
-
-
+//
+//
 // console.log(isFinite(0),isFinite(-1),isFinite(123123123));
 // console.log(isFinite(Infinity),isFinite(-Infinity));
 // console.log(isFinite(1e308),isFinite(1e309));//64 bits
-
+//
 // var url="https://localhost/mi -pagina!.html";
 // var enc=encodeURI(url);
 // var dec=decodeURI(url);
@@ -54,6 +54,9 @@
 // console.log(Math.round(num),Math.round(1.51));//mas cercano
 // console.log(Math.ceil(num));//siguiente
 // console.log(Math.floor(num));//el numero anterior
+
+
+
 
 
 function una(f) {

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <title>Drag&Drop</title>
+    <link rel="stylesheet" type="text/css" href="src/css/main.css">
+</head>
+<body>
+    <!--<div id="drag" draggable="true">-->
+
+    <!--</div>-->
+    <!--<a href="#" draggable="true"><img src="src/img/600_458366409.jpeg">link</a>-->
+
+    <table>
+        <tr>
+            <th>onDrag</th>
+            <th>onDragStart</th>
+            <th>onDragEnter</th>
+            <th>onDragLeave</th>
+            <th>onDragOver</th>
+            <th>onDragEnd</th>
+        </tr>
+        <tr>
+            <th><img id="img1" src="src/img/600_458366409.jpeg" ondrag="miOndrag(event)"/></th>
+
+
+            <th><img id="img2" src="src/img/600_458366409.jpeg" ondragstart="miOnDragStart(event)"></th>
+
+            <th><img id="img3" src="src/img/600_458366409.jpeg" ondragenter="miOnDragEnter(event)"></th>
+
+            <th><img id="img4" src="src/img/600_458366409.jpeg" ondragleave="miOnDragLeave(event)"></th>
+
+            <th><img id="img5" src="src/img/600_458366409.jpeg" ondragover="miOnDragOver(event)"></th>
+
+            <th><img id="img6" src="src/img/600_458366409.jpeg" ondragend="miOnDragDragEnd(event)"></th>
+        </tr>
+    </table>
+    <div id="reproductor" ondragover="miOnDragOver(event)" ondrop="miOnDrop(event)"></div>
+
+    <script src="src/js/main.js"></script>
+</body>
+</html>

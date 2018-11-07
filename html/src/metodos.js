@@ -1,5 +1,6 @@
-// var miArray=[];
-//
+
+
+/*// var miArray=[];
 // var miArray2=['adios','!'];
 // var miArray3=[1,2,3];
 // miArray.push(2);
@@ -31,12 +32,7 @@
 
 // var arr=[[1,2,3],[1,5,3],[1,7,3]];
 // console.log("-------");
-// arr.forEach(function (num, index,array) {
-//
-//         var e=array[index].join("|");
-//         console.log("|"+e+"|");
-//         console.log("-------");
-// })
+/
 //
 //
 //
@@ -52,14 +48,92 @@
 
 
 
-var tablero=[
-    {col:0 ,row:0},{col: 0,row:1}, {col: 0,row:2},
-    {col: 1,row:0},{col:1 ,row:1},{col:1 ,row:2},
-    {col: 2,row:0},{col: 2,row:1},{col: 2,row:2}
-];
+// var tablero=[
+//     {col:0 ,row:0},{col: 0,row:1}, {col: 0,row:2},
+//     {col: 1,row:0},{col:1 ,row:1},{col:1 ,row:2},
+//     {col: 2,row:0},{col: 2,row:1},{col: 2,row:2}
+// ];
+//
+// tablero.sort(function (a,b) {
+//     return a.row-b.row||b.col-a.col;
+//
+// });
+// console.log(tablero);
 
-tablero.sort(function (a,b) {
-    return a.row-b.row||b.col-a.col;
+*/
 
+/** map**/
+// var numeros=[11,22,33,44];
+//
+// var res=numeros.map(function (num) {
+//     return num*2;
+// });
+//
+// console.log(numeros);
+// console.log(res);
+
+// var frutas=['manzanas','pera'];
+//
+// var resultado= frutas.map(function (num) {
+//     return num+'s';
+// })
+// console.log(resultado);
+//
+// var res=frutas.filter(num =>num[num.length-1]=='s');
+//  console.log(res);
+//
+//  var resultado=frutas.filter(function (fruta) {
+//      return fruta[fruta.length-1]!='s';
+//  })
+// console.log(resultado);
+
+
+
+ // var numero=[1,6,7,77,45];
+ // var res=numero.filter(edad=>edad<40);
+ // console.log(res);
+
+// var numeros=[10,11,13];
+// var res=numeros.reduce(function (valorAnterior,valorAcual,indice,array) {
+//     console.log(valorAnterior,valorAcual,indice,array);
+//     return valorAnterior+valorAcual;
+// },1000);
+// console.log(res);
+
+// var puntuaciones=[
+//         {nick:'Ivan',score:10},
+//         {nick:'Pablo',score:'22'},
+//         {nick:'Ivan',score:1},
+//         {nick:'Pablo',score:'18'},
+//         {nick:'Ivan',score:15}
+//     ];
+//
+// var res=puntuaciones.map(function (partida) {
+//     console.log(partida.score);
+//     if(partida.score>=15)
+//     {
+//         partida.score=Math.ceil(partida.score*1.1);
+//     }
+//     return partida;
+// });
+//
+// res=puntuaciones.filter(iv=>iv.nick=='Ivan');
+//
+// var r=res.map(function (s) {
+//     return s.score;
+// });
+// console.log(r);
+//
+// r=r.reduce(function (a,b) {
+//     return a+b;
+// });
+// console.log(res);
+// console.log('Puntuación total de Iván:'+r);
+
+
+/** .find()**/
+var arr=[1,2,3,4,5,6,7];
+var res=arr.find(function (element) {
+    return element>3;
 });
-console.log(tablero);
+console.log(res);
