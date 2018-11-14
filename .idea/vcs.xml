@@ -3,6 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/JavaScript/Drag&amp;Drop" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/JavaScript/src/Drag&amp;Drop" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JavaScript/geolocalizacion" vcs="Git" />
   </component>
 </project>
